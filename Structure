@@ -1,0 +1,17 @@
+payment-service/
+├── src/
+│   ├── controllers/
+│   │   └── paymentController.js
+│   ├── models/
+│   │   └── paymentModel.js
+│   ├── routes/
+│   │   └── paymentRoutes.js
+│   ├── app.js
+│   └── server.js
+├── tests/
+│   └── payment.test.js
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── package.json
+└── README.md
