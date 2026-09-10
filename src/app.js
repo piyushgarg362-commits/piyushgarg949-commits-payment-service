@@ -1,5 +1,4 @@
 const express = require("express");
-
 const paymentRoutes = require("./routes/paymentRoutes");
 
 const app = express();
@@ -16,3 +15,4 @@ app.get("/health", (req, res) => {
 app.use("/payments", paymentRoutes);
 
 module.exports = app;
+

@@ -1,11 +1,3 @@
-const payments = [
-  {
-    id: 1,
-    orderId: 1,
-    amount: 999.99,
-    currency: "CAD",
-    status: "SUCCESS"
-  }
-];
+const payments = [];
 
 module.exports = payments;
